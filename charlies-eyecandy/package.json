@@ -1,0 +1,71 @@
+{
+	"name": "vscode-charlies-eyecandy",
+	"displayName": "Charlies Eyecandy Theme",
+	"description": "A high comfort, soothing and relaxing theme for high efficiency development.",
+	"version": "1.0.0",
+	"publisher": "Sixmax",
+	"license": "Apache 2.0",
+
+	"galleryBanner": 
+	{
+		"color": "#282C34",
+		"theme": "dark"
+	},
+
+	"engines": 
+	{
+		"vscode": "^1.12.0"
+	},
+
+	"categories": 
+	[
+		"Themes"
+	],
+
+	"keywords": 
+	[
+		"theme",
+		"dark"
+	],
+
+	"contributes": 
+	{
+		"themes": 
+		[
+			{
+				"label": "Charlies Eyecandy",
+				"uiTheme": "vs-dark",
+				"path": "./themes/charlies-eyecandy.json"
+			}
+		],
+
+		"languages": 
+		[
+			{
+				"id": "CE-Lua",
+				"extensions": 
+				[ 
+					".lua" 
+				],
+				"aliases": 
+				[ 
+					"CE-Lua",
+					"Lua", 
+					"lua", 
+					"GLua", 
+					"glua" 
+				],
+				"configuration": "./config.json"
+			}
+		],
+
+		"grammars": 
+		[
+			{
+				"language": "CE-Lua",
+				"scopeName": "source.lua",
+				"path": "./syntaxes/charlies-eyecandy-syntax.json"
+		    }
+		]
+	}
+}
