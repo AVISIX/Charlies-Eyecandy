@@ -236,7 +236,8 @@
         "name": "Operators",
         "scope": [
           "keyword.operator.lua",
-          "comment.line.shebang.lua"
+          "comment.line.shebang.lua",
+          "string.add"
         ],
         "settings": 
         {
